@@ -5,3 +5,7 @@ app:
       - npm i  --loglevel=error
       - npm run build --prod --loglevel=error
     deploy: [ 'dist/~' ]
+  run:
+    envReplace:
+      target: [ '.' ]
+      delimiter: [ '%%' ]

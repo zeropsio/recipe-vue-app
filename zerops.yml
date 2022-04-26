@@ -7,5 +7,5 @@ app:
     deploy: [ 'dist/~' ]
   run:
     envReplace:
-      target: [ '.' ]
+      target: [ './assets' ]
       delimiter: [ '%%' ]

@@ -66,6 +66,7 @@ export default defineComponent({
     <ZsRecipeInfo
       :intro="zeropsRecipeConfig.intro"
       :desc="zeropsRecipeConfig.description"
+      :knowledgeBaseLink="zeropsRecipeConfig.knowledgeBaseLink"
     />
     <ZsTodos
       @add="addTodo"

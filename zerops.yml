@@ -1,6 +1,6 @@
 app:
   build:
-    base: [ nodejs@14 ]
+    base: [ nodejs@16 ]
     build:
       - npm i  --loglevel=error
       - npm run build --prod --loglevel=error

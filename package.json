@@ -9,7 +9,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@zerops/project-diagram": "0.0.19",
+    "@zerops/project-diagram": "0.0.22",
     "@zerops/zestrat-models": "0.1.2",
     "@zerops/zestrat-vue": "0.0.23",
     "@zerops/zestratcss": "0.1.4",
